@@ -23,8 +23,7 @@
             android:scaleType="centerCrop"
             android:contentDescription="background image"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/image"/>
+            android:layout_height="match_parent" />
 
         <com.synerf.drawingapp.DrawingView
             android:id="@+id/drawingView"
