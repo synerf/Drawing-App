@@ -48,6 +48,14 @@ class MainActivity : AppCompatActivity() {
                 requestStoragePermission()
             }
         }
+
+        binding.ibUndo.setOnClickListener {
+            binding.drawingView.onClickUndo()
+        }
+
+        binding.ibRedo.setOnClickListener {
+            binding.drawingView.onClickRedo()
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
