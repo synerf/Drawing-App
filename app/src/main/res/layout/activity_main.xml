@@ -180,6 +180,15 @@
             android:contentDescription="brush image"
             android:scaleType="fitXY"
             android:layout_margin="5dp" />
+
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_save"
+            android:contentDescription="brush image"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp" />
     </LinearLayout>
 
 
